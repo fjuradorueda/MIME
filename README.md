@@ -1,7 +1,7 @@
 # MIME
 # Microbiome Metagenomic Data Simulator
 
-![alt text](https://github.com/fjuradorueda/MIME/blob/main/version%202.png)
+<img src="https://github.com/fjuradorueda/MIME/blob/main/version%202.png" alt="drawing" width="400"/>
 
 Python pipeline devised to simulate multiple microbial Illumina sequences like data. The strength of this pipeline is the broad number of sequences' features that can be tuned. It takes as input bacterial genomes and outputs a file with all microbial sequences with the characteristics previously tuned.
 
