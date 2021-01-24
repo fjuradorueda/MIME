@@ -8,7 +8,14 @@ MIME is a python pipeline to simulate multiple microbial Illumina sequences like
 
 ## Usage
 
-It takes as input bacterial genomes and outputs a file with all microbial sequences with the characteristics previously tuned.
+MIME takes as input bacterial genomes in fasta format. We recommend you download your "Complete genomes" from NCBI Nucleotide repository 
+
+```
+https://www.ncbi.nlm.nih.gov/nuccore
+```
+Make sure one one sequence is present in the fasta, **NO PLASMIDS are allowed**
+
+and outputs a file with all microbial sequences with the characteristics previously tuned.
 
 Parameters to be tuned:
 
