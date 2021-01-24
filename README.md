@@ -4,7 +4,7 @@
   <img src="https://github.com/fjuradorueda/MIME/blob/main/version%202.png" alt="drawing" width="400"/>
 </p>
 
-MIME is a python pipeline to simulate multiple microbial Illumina sequences like data. The strength of this pipeline is the broad number of sequences' features that can be tuned, perfectly controlling up to 11 features of your data
+MIME is a python pipeline to simulate multiple microbial Illumina sequences like data. The strength of this pipeline is the broad number of sequences' features that can be tuned, perfectly controlling up to 15 features of your data
 
 ## Features
 
@@ -18,7 +18,7 @@ MIME is a python pipeline to simulate multiple microbial Illumina sequences like
 | --ER | [0-1]/0 | **Error rate** It is a nucleotide rate. Random nucleotides switches |
 | --contaminant_rate | [0-1]/0 | **Contaminant rate**  It is a reads rate. Phage PhiX174 is used as a contaminant (i.e. it is used as + control for Illumina) |
 | --dupli_rate| [0-1]/0| **Duplicate rate** It is a reads rate. |
-| --adapters_rate | [0-1]/0 | **Duplicate rate** It is a reads rate. Forward reads: i5. Backwards reads: i7 .Obtained from illumina manual https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/experiment-design/illumina-adapter-sequences-1000000002694-14.pdf|
+| --adapters_rate | [0-1]/0 | **Adapter size ** It is a reads rate. Forward reads: i5. Backwards reads: i7 .Obtained from illumina manual 
 | --adapters_size | [0-32]/8 | **Adapters Size** |
 | --molecule_type | ['RNA','DNA']/'DNA' | **Molecule type** for output files|
 | --paired | [Boolean]/False | **Sequenences can be single or paired** |
@@ -47,3 +47,8 @@ The genomes are always mandatory, then you can either specify the genome coverag
 
 ## Output
 By default it will generate all files in the same folder,therefore we recommend you create and work on a brand new folder. The name of the folders will correspond to the name of the input files (Species name) to be easily managed. Outputs a file with all microbial sequences with the characteristics previously tuned.
+
+## Extra infor
+Adapters obtained from 
+https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/experiment-design/illumina-adapter-sequences-1000000002694-14.pdf|
+
