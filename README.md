@@ -42,7 +42,7 @@ mv sequence.fasta.txt Genus_species.fa
 The genomes are always mandatory, then you can either specify the genome coverage or the numers of reads and mean length. 
 
 ```
-./HM2.py --number 100 --mean 50 --genomes *.fa
+./run_MIME.py --number 100 --mean 50 --genomes *.fa
 ```
 
 ## Output
